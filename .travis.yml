@@ -1,0 +1,11 @@
+language: cpp
+compiler: clang
+addons:
+    apt:
+        sources:
+        - ubuntu-toolchain-r-test
+        packages:
+        - python3
+        - libstdc++-10-dev
+install: true
+script: make run
